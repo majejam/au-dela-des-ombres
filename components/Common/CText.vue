@@ -35,10 +35,47 @@ export default {
 <style lang="scss">
 .Text {
   font-family: var(--font-text);
-  color: blue;
 
   &--bold {
-    font-weight: bold;
+    font-family: var(--font-text-bold);
   }
+
+  &--solid {
+    font-family: var(--font-heading-solid);
+  }
+
+  &--sketch {
+    font-family: var(--font-heading-sketch);
+  }
+}
+
+h1 {
+  font-size: 101px;
+  line-height: 120px;
+}
+
+h2 {
+  font-size: 63px;
+  line-height: 80px;
+}
+
+h3 {
+  font-size: 50px;
+  line-height: 64px;
+}
+
+h4 {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+h5 {
+  font-size: 25px;
+  line-height: 32px;
+}
+
+h6 {
+  font-size: 21px;
+  line-height: 24px;
 }
 </style>

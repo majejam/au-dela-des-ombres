@@ -1,9 +1,8 @@
 <template>
   <div class="container">
     <c-header :links="content.body.header.links" />
-    <div class="content">
-      <c-text tag="h2" type="bold" :text="content.body.content.text" />
-    </div>
+    <c-jumbotron :hero="content.body.hero" />
+    <div class="content"></div>
     <c-footer />
   </div>
 </template>

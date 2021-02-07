@@ -8,11 +8,40 @@
     "header": {
       "links": [
         {
-          "href": "https://www.google.fr/",
-          "text": "Google",
-          "target": "_blank"
+          "href": "/",
+          "text": "Accueil",
+          "target": "inner"
+        },
+        {
+          "href": "/film",
+          "text": "Le film",
+          "target": "inner"
+        },
+        {
+          "href": "/evenements",
+          "text": "évenements",
+          "target": "inner"
+        },
+        {
+          "href": "/education",
+          "text": "éducation",
+          "target": "inner"
+        },
+        {
+          "href": "/boutique",
+          "text": "boutique",
+          "target": "inner"
+        },
+        {
+          "href": "/presse",
+          "text": "presse",
+          "target": "inner"
         }
       ]
+    },
+    "hero": {
+      "title": "Au delà des ombres",
+      "subtitle": "Découvrez l'univers d'Ava et partez à la recherche des couleurs"
     },
     "content": {
       "text": "Titre",

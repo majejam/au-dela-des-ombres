@@ -30,15 +30,19 @@ export default {
 
 <style lang="scss">
 .CHeader {
+  position: absolute;
+  top: 24px;
   width: 100%;
-  height: 50px;
+  height: 48px;
   padding: var(--col-main);
 
   &__link {
     padding: var(--pad-main);
 
-    &-a {
-      color: var(--main-black);
+    &--a {
+      color: var(--grey-50);
+      text-transform: uppercase;
+      text-decoration: none;
     }
   }
 }
