@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Title",
+    "description": "Description",
+    "image": "image.png"
+  },
+  "body": {
+    "header": {
+      "links": [
+        {
+          "href": "https://www.google.fr/",
+          "text": "Google",
+          "target": "_blank"
+        }
+      ]
+    },
+    "content": {
+      "text": "Titre",
+      "video": {
+        "title": "Vidéo vimeo",
+        "id": 481386833
+      }
+    },
+    "footer": {
+      "text": "Footer"
+    }
+  }
+}

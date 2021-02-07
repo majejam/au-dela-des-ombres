@@ -1,0 +1,25 @@
+// --------------------------------------------------
+// Breakpoints
+// --------------------------------------------------
+@function rem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+$gridMaxSize: 1440px;
+
+$breakpoints: (
+  default: unquote('only all'),
+  lg: unquote('screen and (max-width: #{rem(1440px)})'),
+  //large
+  md: unquote('screen and (max-width: #{rem(1024px)})'),
+  //medium
+  sm: unquote('screen and (max-width: #{rem(767px)})'),
+  //small
+  xsm: unquote('screen and (max-width: #{rem(400px)})'),
+  //small
+  portrait: unquote('screen and (orientation: portrait)'),
+  //small
+  landscape: unquote('screen and (orientation: landscape)'),
+  //small
+);
