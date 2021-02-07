@@ -1,28 +1,24 @@
 <template>
-  <header class="CHeader u-flex-center">
+  <header class="CHeader u-flex-right">
     <ul class="CHeader__links u-flex-center">
-      <li v-for="(link, index) in links" :key="index" class="CHeader__link">
-        <a
-          class="CHeader__link--a"
-          :href="link.href"
-          :target="link.target"
-          rel="noopener noreferrer"
-          >{{ link.text }}</a
-        >
+      <li v-for="(link, index) in content.links" :key="index" class="CHeader__link">
+        <NuxtLink class="CHeader__link--a u-flex-center" :to="link.target">
+          <c-text tag="span" type="custom" :text="link.text" />
+        </NuxtLink>
       </li>
+      <c-button-header :content="content" />
     </ul>
   </header>
 </template>
 
 <script>
+import CButtonHeader from './CButtonHeader.vue'
 export default {
+  components: { CButtonHeader },
   props: {
-    links: {
+    content: {
       required: true,
-      type: Array,
-      validator: function (value) {
-        return value.length !== 0
-      },
+      type: Object,
     },
   },
 }
@@ -31,13 +27,14 @@ export default {
 <style lang="scss">
 .CHeader {
   position: absolute;
+  z-index: 2;
   top: 24px;
   width: 100%;
   height: 48px;
-  padding: var(--col-main);
+  padding: var(--col-header);
 
   &__link {
-    padding: var(--pad-main);
+    padding: var(--pad-header);
 
     &--a {
       color: var(--grey-50);

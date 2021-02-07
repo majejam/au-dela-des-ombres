@@ -1,14 +1,18 @@
 <template>
   <div class="container">
-    <c-header :links="content.body.header.links" />
+    <c-header :content="content.body.header" />
     <c-jumbotron :hero="content.body.hero" />
-    <div class="content"></div>
+    <div class="content">
+      <c-paragraph-image :content="content.body.paragraph" />
+    </div>
     <c-footer />
   </div>
 </template>
 
 <script>
+import CParagraphImage from '../components/Common/CParagraphImage.vue'
 export default {
+  components: { CParagraphImage },
   async asyncData({ store }) {
     return { content: store.state.content }
   },

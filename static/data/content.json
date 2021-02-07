@@ -6,6 +6,8 @@
   },
   "body": {
     "header": {
+      "cta": "Voir le film sur disney +",
+      "cta_url": "/teaser",
       "links": [
         {
           "href": "/",
@@ -40,8 +42,21 @@
       ]
     },
     "hero": {
+      "image": "images/jumbotron.png",
       "title": "Au delà des ombres",
-      "subtitle": "Découvrez l'univers d'Ava et partez à la recherche des couleurs"
+      "subtitle": "Découvrez l'univers d'Ava et partez à la recherche des couleurs",
+      "cta": "Voir la bande d'annonce",
+      "cta_url": "/teaser"
+    },
+    "paragraph": {
+      "overline": "Synopsis",
+      "title_upper": "Une histoire",
+      "title_downer": "haute en couleur",
+      "paragraph": "Ava, une enfant introvertie, est souvent la tête dans les nuages.  Pleine de tristesse, elle ne perçoit plus les couleurs. Poussée par Pipo, son compagnon imaginaire, elle est prête à tout pour réapprendre à colorer sa vision du monde. Sa quête du bonheur est parsemée d'embûches, le Dévoreur, une force gigantesque noire et difforme qui n’est rien d’autre que l'incarnation de son mal-être, ne cesse de la ronger de jour en jour.",
+      "image": {
+        "url": "images/rain_man.png",
+        "alt": "Un homme sous la pluie"
+      }
     },
     "content": {
       "text": "Titre",

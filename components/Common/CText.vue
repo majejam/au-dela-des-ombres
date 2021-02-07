@@ -47,6 +47,19 @@ export default {
   &--sketch {
     font-family: var(--font-heading-sketch);
   }
+
+  &--custom {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+  }
+
+  &--overline {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+  }
 }
 
 h1 {
@@ -77,5 +90,16 @@ h5 {
 h6 {
   font-size: 21px;
   line-height: 24px;
+}
+
+p {
+  font-family: var(--font-text);
+  font-size: 17px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+
+span {
+  font-family: var(--font-text);
 }
 </style>

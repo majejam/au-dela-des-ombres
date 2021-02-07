@@ -1,10 +1,11 @@
 <template>
   <section class="CJumbotron">
-    <img class="CJumbotron__hero" src="images/jumbotron.png" alt="Image de l'accueil" />
+    <img class="CJumbotron__hero" :src="hero.image" alt="Image de l'accueil" />
     <div class="CJumbotron__text">
       <c-text tag="h2" type="solid" :text="hero.title" />
       <c-text class="CJumbotron__text--subtitle" tag="h6" type="solid" :text="hero.subtitle" />
     </div>
+    <c-button-home :content="hero" />
   </section>
 </template>
 
