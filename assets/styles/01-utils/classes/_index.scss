@@ -15,3 +15,13 @@
   justify-content: center;
   align-items: center;
 }
+
+.u-flex-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.col {
+  width: 50%;
+}
