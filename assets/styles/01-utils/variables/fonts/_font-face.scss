@@ -1,4 +1,32 @@
 @font-face {
   font-family: 'Avenir-Medium';
-  src: url('/fonts/Avenir-Medium.ttf') format('ttf');
+  src: url('/static/fonts/Avenir-Medium.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'KG Second Chances Sketch';
+  src: url('/fonts/KGSecondChancesSketch.woff2') format('woff2'),
+    url('/fonts/KGSecondChancesSketch.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KG Second Chances Solid';
+  src: url('/fonts/KGSecondChancesSolid.woff2') format('woff2'),
+    url('/fonts/KGSecondChancesSolid.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LatoBold';
+  src: url('/static/fonts/Lato-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'LatoRegular';
+  src: url('/static/fonts/Lato-Regular.ttf') format('ttf');
 }
