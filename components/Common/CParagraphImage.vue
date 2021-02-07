@@ -1,24 +1,7 @@
 <template>
   <section class="CParagraphImage">
     <div class="col CParagraphImage__left">
-      <c-text
-        tag="span"
-        class="CParagraphImage__left__overline"
-        type="overline"
-        :text="content.overline"
-      />
-      <c-text
-        tag="h3"
-        type="sketch"
-        class="CParagraphImage__left__title CParagraphImage__left__title--m"
-        :text="content.title_upper"
-      />
-      <c-text
-        tag="h3"
-        type="solid"
-        class="CParagraphImage__left__title"
-        :text="content.title_downer"
-      />
+      <c-heading :content="content" />
       <c-text tag="p" class="CParagraphImage__left__p" :text="content.paragraph" />
     </div>
     <div class="col CParagraphImage__right">
@@ -49,19 +32,6 @@ export default {
 
   &__left {
     padding-top: 70px;
-
-    &__overline {
-      text-transform: uppercase;
-      color: var(--purple-dark);
-    }
-
-    &__title {
-      color: var(--purple-dark);
-
-      &--m {
-        margin-top: 8px;
-      }
-    }
 
     &__p {
       margin-top: 24px;

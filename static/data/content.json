@@ -58,6 +58,17 @@
         "alt": "Un homme sous la pluie"
       }
     },
+    "slider": {
+      "overline": "Galerie d'images",
+      "title_upper": "Un univers où",
+      "title_downer": "la couleur est précieuse",
+      "images": [
+        {
+          "url": "images/rain_man.png",
+          "alt": "Un homme sous la pluie"
+        }
+      ]
+    },
     "content": {
       "text": "Titre",
       "video": {

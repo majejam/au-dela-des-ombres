@@ -4,6 +4,7 @@
     <c-jumbotron :hero="content.body.hero" />
     <div class="content">
       <c-paragraph-image :content="content.body.paragraph" />
+      <c-slider :content="content.body.slider" />
     </div>
     <c-footer />
   </div>

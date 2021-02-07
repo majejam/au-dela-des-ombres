@@ -22,8 +22,7 @@ export default {
   color: var(--main-white);
   text-decoration: none;
   text-transform: uppercase;
-  height: 48px;
-  width: 262px;
+  padding: 16px 24px;
   border-radius: 100px;
   background: #ffb514;
 
