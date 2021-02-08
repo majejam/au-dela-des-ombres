@@ -1,46 +1,10 @@
 {
   "meta": {
-    "title": "Title",
+    "title": "Home",
     "description": "Description",
     "image": "image.png"
   },
   "body": {
-    "header": {
-      "cta": "Voir le film sur disney +",
-      "cta_url": "/teaser",
-      "links": [
-        {
-          "href": "/",
-          "text": "Accueil",
-          "target": "inner"
-        },
-        {
-          "href": "/film",
-          "text": "Le film",
-          "target": "inner"
-        },
-        {
-          "href": "/evenements",
-          "text": "évenements",
-          "target": "inner"
-        },
-        {
-          "href": "/education",
-          "text": "éducation",
-          "target": "inner"
-        },
-        {
-          "href": "/boutique",
-          "text": "boutique",
-          "target": "inner"
-        },
-        {
-          "href": "/presse",
-          "text": "presse",
-          "target": "inner"
-        }
-      ]
-    },
     "hero": {
       "image": "images/jumbotron.png",
       "title": "Au delà des ombres",
@@ -84,16 +48,6 @@
           "alt": "Un homme sous la pluie"
         }
       ]
-    },
-    "content": {
-      "text": "Titre",
-      "video": {
-        "title": "Vidéo vimeo",
-        "id": 481386833
-      }
-    },
-    "footer": {
-      "text": "Footer"
     }
   }
 }

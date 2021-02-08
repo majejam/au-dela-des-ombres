@@ -1,11 +1,7 @@
 <template>
   <div class="container">
     <c-header :content="global.header" />
-    <c-jumbotron :hero="content.body.hero" />
-    <div class="content">
-      <c-paragraph-image :content="content.body.paragraph" />
-      <c-slider :content="content.body.slider" />
-    </div>
+    <div class="content"></div>
     <c-footer />
   </div>
 </template>
@@ -13,7 +9,7 @@
 <script>
 export default {
   async asyncData({ store }) {
-    return { content: store.state.home, global: store.state.global }
+    return { content: store.state.event, global: store.state.global }
   },
   head() {
     return {

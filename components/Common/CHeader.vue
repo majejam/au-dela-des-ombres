@@ -2,7 +2,7 @@
   <header class="CHeader u-flex-right">
     <ul class="CHeader__links u-flex-center">
       <li v-for="(link, index) in content.links" :key="index" class="CHeader__link">
-        <NuxtLink class="CHeader__link--a u-flex-center" :to="link.target">
+        <NuxtLink class="CHeader__link--a u-flex-center" :to="link.href">
           <c-text tag="span" type="custom" :text="link.text" />
         </NuxtLink>
       </li>
