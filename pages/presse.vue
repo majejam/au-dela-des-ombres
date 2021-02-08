@@ -1,13 +1,21 @@
 <template>
   <div class="container">
     <c-header :content="global.header" />
-    <div class="content"></div>
+    <c-heading-hero :hero="content.body.hero" />
+    <c-presse-right :downloads="content.body.downloads" />
+    <div class="content">
+      <c-presse-left />
+    </div>
     <c-footer />
   </div>
 </template>
 
 <script>
+import CHeadingHero from '../components/Presse/CHeadingHero.vue'
+import CPresseLeft from '../components/Presse/CPresseLeft.vue'
+import CPresseRight from '../components/Presse/CPresseRight.vue'
 export default {
+  components: { CHeadingHero, CPresseLeft, CPresseRight },
   async asyncData({ store }) {
     console.log(store.state.presse)
     return { content: store.state.presse, global: store.state.global }

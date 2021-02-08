@@ -4,5 +4,30 @@
     "description": "Description",
     "image": "image.png"
   },
-  "body": {}
+  "body": {
+    "hero": {
+      "title": "Espace presse"
+    },
+    "downloads": {
+      "download": [
+        {
+          "title": "Affiche",
+          "dimension": "32 x 43px",
+          "format": ".png .jpg",
+          "images": [
+            "images/event/event1.png"
+          ]
+        },
+        {
+          "title": "Logo",
+          "dimension": "32 x 43px",
+          "format": ".png .jpg .svg",
+          "images": [
+            "images/event/event2.png",
+            "images/event/event3.png"
+          ]
+        }
+      ]
+    }
+  }
 }
