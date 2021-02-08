@@ -1,7 +1,7 @@
 <template>
   <section class="CParagraphImage">
     <div class="col CParagraphImage__left">
-      <c-heading :content="content" />
+      <c-heading class="CParagraphImage__left__heading" :content="content" />
       <c-text tag="p" class="CParagraphImage__left__p" :text="content.paragraph" />
     </div>
     <div class="col CParagraphImage__right">
@@ -32,6 +32,10 @@ export default {
 
   &__left {
     padding-top: 70px;
+
+    &__heading {
+      color: var(--purple-dark);
+    }
 
     &__p {
       margin-top: 24px;

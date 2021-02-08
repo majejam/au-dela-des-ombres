@@ -97,6 +97,7 @@ p {
   font-size: 17px;
   line-height: 32px;
   letter-spacing: 0.5px;
+  color: var(--grey-900);
 }
 
 span {

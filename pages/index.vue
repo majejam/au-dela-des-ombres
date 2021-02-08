@@ -11,9 +11,7 @@
 </template>
 
 <script>
-import CParagraphImage from '../components/Common/CParagraphImage.vue'
 export default {
-  components: { CParagraphImage },
   async asyncData({ store }) {
     return { content: store.state.content }
   },
@@ -35,6 +33,7 @@ export default {
 
 <style lang="scss">
 .content {
-  margin: var(--col-main);
+  padding: var(--col-main);
+  overflow-x: hidden;
 }
 </style>
