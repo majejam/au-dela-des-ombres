@@ -66,6 +66,12 @@ export default {
     font-weight: 700;
   }
 
+  &--body {
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+  }
+
   &--thin {
     font-size: 17px;
     font-weight: 400;

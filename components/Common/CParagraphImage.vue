@@ -28,6 +28,7 @@ export default {
 <style lang="scss">
 .CParagraphImage {
   margin-top: 110px;
+  padding: var(--col-main);
   display: flex;
 
   &__left {
