@@ -4,5 +4,55 @@
     "description": "Description",
     "image": "image.png"
   },
-  "body": {}
+  "body": {
+    "hero": {
+      "image": "images/carousel.png",
+      "overlay": true,
+      "caption": "Évènement inédit · Paris, mardi 23 février 2021",
+      "title": "La fête des couleurs",
+      "subtitle": "Voyez la vie en couleur en accompagant Ava à une extraordinaire fête foraine",
+      "cta": "Voir plus d'informations",
+      "cta_icon": "images/icons/Search.svg",
+      "cta_url": "/la-fete-des-couleurs"
+    },
+    "events": {
+      "overline": "Évènement",
+      "title_upper": "Les aventures d'Ava",
+      "title_downer": "à ne pas rater",
+      "event": [
+        {
+          "image": "images/event/event1.png",
+          "title": "Salon de sensibilisation au harcèlement scolaire",
+          "location": "Lyon",
+          "date": "23 / 02 / 21",
+          "text": "Avec de nombreux experts sur le sujet tels que Emmanuelle Piquet, Valérie Piau et Christophe Delarue, participez au premier salon de sensibilisation au problème du harcèlement scolaire.",
+          "redirection": ""
+        },
+        {
+          "image": "images/event/event2.png",
+          "title": "La fête des couleurs",
+          "location": "Paris, Bordeaux",
+          "date": "23 / 02 / 21",
+          "text": "Le temps d’une incroyable journée d’automne, accompagnez Ava et toute votre famille à une extraordinaire fête forraine au plein coeur de Paris, Place de la République. C’est promis, vous ressortirez avec des couleurs plein les yeux.",
+          "redirection": ""
+        },
+        {
+          "image": "images/event/event3.png",
+          "title": "À la recherche de notre ami Pipo",
+          "location": "Paris, Marseille, Strasbourg",
+          "date": "23 / 02 / 21",
+          "text": "Mince ! Sous la colère, Ava a jeté Pipo par la fenêtre et il a atterit sur un camion publicitaire. Partez à la recherche de ce camion pour retrouver Pipo au plus vite !",
+          "redirection": ""
+        },
+        {
+          "image": "images/event/event1.png",
+          "title": "Un univers où la couleur est précieuse",
+          "location": "Paris",
+          "date": "23 / 02 / 21",
+          "text": "Damien Bonnard, Alexis Manenti, Djebril Zonga, Issa Perica, Al-Hassan Ly, Steve Tientcheu, Almamy Kanoute, Nizar Ben Fatma, Raymond Lopez, Luciano Lopez, Jaihson Lopez, Jeanne Balibar, Omar Soumare, Sana Joachaim et Lucas Omiri",
+          "redirection": ""
+        }
+      ]
+    }
+  }
 }

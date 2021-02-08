@@ -7,9 +7,11 @@
   "body": {
     "hero": {
       "image": "images/jumbotron.png",
+      "overlay": false,
       "title": "Au delà des ombres",
       "subtitle": "Découvrez l'univers d'Ava et partez à la recherche des couleurs",
       "cta": "Voir la bande d'annonce",
+      "cta_icon": "images/icons/Play.svg",
       "cta_url": "/teaser"
     },
     "paragraph": {

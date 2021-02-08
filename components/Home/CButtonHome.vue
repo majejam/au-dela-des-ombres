@@ -1,6 +1,6 @@
 <template>
   <NuxtLink class="CButtonHome u-flex-center" :to="content.cta_url">
-    <img class="CButtonHome__image" src="images/icons/Play.svg" alt="Play icon" />
+    <img class="CButtonHome__image" :src="content.cta_icon" alt="Play icon" />
     <c-text tag="span" type="custom" :text="content.cta" />
   </NuxtLink>
 </template>

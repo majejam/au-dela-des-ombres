@@ -60,6 +60,16 @@ export default {
     font-weight: 700;
     letter-spacing: 1.5px;
   }
+
+  &--caption {
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  &--thin {
+    font-size: 17px;
+    font-weight: 400;
+  }
 }
 
 h1 {
