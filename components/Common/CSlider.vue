@@ -1,6 +1,10 @@
 <template>
   <section class="CSlider">
-    <c-heading :content="content" />
+    <div class="CSlider__top">
+      <c-heading class="CSlider__heading" :content="content" />
+      <c-slider-button />
+    </div>
+    <c-swiper :images="content.images" />
   </section>
 </template>
 
@@ -18,5 +22,11 @@ export default {
 <style lang="scss">
 .CSlider {
   margin-top: 80px;
+
+  &__top {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
 }
 </style>
