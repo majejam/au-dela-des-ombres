@@ -2,16 +2,17 @@
   <div class="container">
     <c-header :content="global.header" />
     <c-jumbotron :hero="content.body.hero" />
-    <div class="content">
-      <c-paragraph-image :content="content.body.paragraph" />
-      <c-slider :content="content.body.slider" />
-    </div>
+    <c-paragraph-image :content="content.body.paragraph" />
+    <c-characters :content="content.body.characters" />
+    <c-slider :content="content.body.slider" />
     <c-footer />
   </div>
 </template>
 
 <script>
+import CCharacters from '../components/Home/CCharacters.vue'
 export default {
+  components: { CCharacters },
   async asyncData({ store }) {
     return { content: store.state.home, global: store.state.global }
   },
@@ -32,8 +33,7 @@ export default {
 </script>
 
 <style lang="scss">
-.content {
-  padding: var(--col-main);
+.container {
   overflow-x: hidden;
 }
 </style>

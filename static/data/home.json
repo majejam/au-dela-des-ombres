@@ -24,6 +24,26 @@
         "alt": "Un homme sous la pluie"
       }
     },
+    "characters": {
+      "overline": "Héros",
+      "title_upper": "Ava",
+      "title_downer": "et son entourage",
+      "list": [
+        {
+          "name": "Ava",
+          "title": "Héros",
+          "description": "Ava est une enfant très créative qui adore peindre. Pleine de tristesse car moquée par ses camarades, elle ne voit plus les couleurs.",
+          "image": {
+            "url": "afaffa",
+            "alt": "fez,fz"
+          },
+          "link": {
+            "url": "/",
+            "text": "DÉbloquer son filtre insta"
+          }
+        }
+      ]
+    },
     "slider": {
       "overline": "Galerie d'images",
       "title_upper": "Un univers où",

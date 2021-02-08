@@ -22,11 +22,14 @@ export default {
 <style lang="scss">
 .CSlider {
   margin-top: 80px;
+  padding: var(--col-main);
 
   &__top {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+
+    color: var(--purple-dark);
   }
 }
 </style>

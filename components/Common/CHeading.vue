@@ -26,12 +26,9 @@ export default {
 .CHeading {
   &__overline {
     text-transform: uppercase;
-    color: var(--purple-dark);
   }
 
   &__title {
-    color: var(--purple-dark);
-
     &--m {
       margin-top: 8px;
     }
