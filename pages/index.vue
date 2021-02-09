@@ -1,18 +1,14 @@
 <template>
   <div class="container">
     <c-header :content="global.header" />
-    <c-jumbotron :hero="content.body.hero" />
-    <c-paragraph-image :content="content.body.paragraph" />
-    <c-characters :content="content.body.characters" />
-    <c-slider :content="content.body.slider" />
-    <c-footer />
+    <c-home-hero :hero="content.body.hero" />
   </div>
 </template>
 
 <script>
-import CCharacters from '../components/Home/CCharacters.vue'
+import CHomeHero from '../components/Home/CHomeHero.vue'
 export default {
-  components: { CCharacters },
+  components: {CHomeHero },
   async asyncData({ store }) {
     return { content: store.state.home, global: store.state.global }
   },

@@ -19,8 +19,6 @@ export default {
 .CButtonEvent {
   height: 48px;
   display: flex;
-  background: var(--main-red);
-  color: var(--main-white);
   text-decoration: none;
   text-transform: uppercase;
   padding: 16px 24px;

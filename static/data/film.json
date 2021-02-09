@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "title": "Film",
+    "description": "Description",
+    "image": "image.png"
+  },
+  "body": {
+    "hero": {
+      "image": "images/jumbotron.png",
+      "overlay": false,
+      "title": "Au delà des ombres",
+      "subtitle": "Découvrez l'univers d'Ava et partez à la recherche des couleurs",
+      "cta": "Voir la bande d'annonce",
+      "cta_icon": "images/icons/Play.svg",
+      "cta_url": "/teaser"
+    },
+    "paragraph": {
+      "overline": "Synopsis",
+      "title_upper": "Une histoire",
+      "title_downer": "haute en couleur",
+      "paragraph": "Ava, une enfant introvertie, est souvent la tête dans les nuages.  Pleine de tristesse, elle ne perçoit plus les couleurs. Poussée par Pipo, son compagnon imaginaire, elle est prête à tout pour réapprendre à colorer sa vision du monde. Sa quête du bonheur est parsemée d'embûches, le Dévoreur, une force gigantesque noire et difforme qui n’est rien d’autre que l'incarnation de son mal-être, ne cesse de la ronger de jour en jour.",
+      "image": {
+        "url": "images/colline.png",
+        "alt": "Un homme sous la pluie"
+      }
+    },
+    "characters": {
+      "overline": "Héros",
+      "title_upper": "Ava",
+      "title_downer": "et son entourage",
+      "list": [
+        {
+          "name": "Ava",
+          "title": "Héroïne",
+          "description": "Ava est une enfant très créative qui adore peindre. Pleine de tristesse car moquée par ses camarades, elle ne voit plus les couleurs.",
+          "image": {
+            "url": "images/film/persos/ava.png",
+            "alt": "fez,fz"
+          },
+          "link": {
+            "url": "/",
+            "text": "DÉbloquer son filtre insta"
+          }
+        },
+        {
+          "name": "Pipo",
+          "title": "L'ami imaginaire d'Ava",
+          "description": "Pipo est la peluche qu’Ava à gagné à la fête des couleurs. Très compréhensif, il veut à tout prix aider Ava à retrouver les couleurs.",
+          "image": {
+            "url": "images/film/persos/pipo.png",
+            "alt": "fez,fz"
+          },
+          "link": {
+            "url": "/",
+            "text": "DÉbloquer son filtre insta"
+          }
+        },
+        {
+          "name": "Le Dévoreur",
+          "title": "L'ombre terrifiante d'Ava",
+          "description": "Le Dévoreur est un horrible monstre noir qui tente de d’engloutir les couleurs d’Ava quand elle ne se sent pas bien.",
+          "image": {
+            "url": "images/film/persos/ava.png",
+            "alt": "fez,fz"
+          },
+          "link": {
+            "url": "/",
+            "text": "DÉbloquer son filtre insta"
+          }
+        },
+        {
+          "name": "Antoine",
+          "title": "Le cancre de la classe",
+          "description": "Antoine est un camarade de classe d’Ava. Avec ses amis, il se moque souvent d’Ava sans se rendre compte que cela lui fait de la peine.",
+          "image": {
+            "url": "images/film/persos/antoine.png",
+            "alt": "fez,fz"
+          },
+          "link": {
+            "url": "/",
+            "text": "DÉbloquer son filtre insta"
+          }
+        },
+        {
+          "name": "Mme. Pétulipe",
+          "title": "La prof d'Arts plastiques",
+          "description": "Madame Pétulipe est la maitresse d’Ava en Arts plastiques. Ava l’admire beaucoup et ses remarques peuvent parfois blesser Ava.",
+          "image": {
+            "url": "images/film/persos/pro.png",
+            "alt": "fez,fz"
+          },
+          "link": {
+            "url": "/",
+            "text": "DÉbloquer son filtre insta"
+          }
+        },
+        {
+          "name": "Colin",
+          "title": "L'ami d'Ava",
+          "description": "Colin est également isolé par ses camarades de classe. C’est le seul d’ami d’Ava et il va tenter de la rendre plus heureuse.",
+          "image": {
+            "url": "images/film/persos/colin.png",
+            "alt": "fez,fz"
+          },
+          "link": {
+            "url": "/",
+            "text": "DÉbloquer son filtre insta"
+          }
+        },
+        {
+          "name": "M. Tuk",
+          "title": "Les parents d'Ava",
+          "description": "Monsieur et Madame Tuk sont les parents d’Ava. Agriculteurs, ils travaillent beaucoup et ne font pas très attention à leur fille.",
+          "image": {
+            "url": "images/film/persos/tuk.png",
+            "alt": "fez,fz"
+          },
+          "link": {
+            "url": "/",
+            "text": "DÉbloquer son filtre insta"
+          }
+        }
+      ]
+    },
+    "slider": {
+      "overline": "Galerie d'images",
+      "title_upper": "Un univers où",
+      "title_downer": "la couleur est précieuse",
+      "images": [
+        {
+          "url": "images/slider/image_slider_1.png",
+          "alt": "Un homme sous la pluie"
+        },
+        {
+          "url": "images/slider/image_slider_2.png",
+          "alt": "Un homme sous la pluie"
+        },
+        {
+          "url": "images/slider/image_slider_3.png",
+          "alt": "Un homme sous la pluie"
+        },
+        {
+          "url": "images/slider/image_slider_4.png",
+          "alt": "Un homme sous la pluie"
+        },
+        {
+          "url": "images/slider/image_slider_5.png",
+          "alt": "Un homme sous la pluie"
+        }
+      ]
+    }
+  }
+}

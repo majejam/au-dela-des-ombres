@@ -62,7 +62,6 @@ export default {
   &__image {
     width: 100%;
     height: auto;
-    border: 10px solid white;
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
   }
 

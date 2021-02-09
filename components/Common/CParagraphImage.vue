@@ -27,12 +27,13 @@ export default {
 
 <style lang="scss">
 .CParagraphImage {
-  margin-top: 110px;
+  margin-top: 150px;
+  margin-bottom: 110px;
   padding: var(--col-main);
   display: flex;
 
   &__left {
-    padding-top: 70px;
+    padding-top: 80px;
 
     &__heading {
       color: var(--purple-dark);

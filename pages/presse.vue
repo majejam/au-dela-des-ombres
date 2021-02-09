@@ -6,7 +6,7 @@
     <div class="content">
       <c-presse-left />
     </div>
-    <c-footer />
+    <c-footer :content="global.footer" />
   </div>
 </template>
 

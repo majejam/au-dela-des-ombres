@@ -5,7 +5,7 @@
     <div class="content">
       <c-event-list :content="content.body.events" />
     </div>
-    <c-footer />
+    <c-footer :content="global.footer" />
   </div>
 </template>
 

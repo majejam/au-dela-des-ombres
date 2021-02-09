@@ -1,75 +1,39 @@
 {
-  "meta": {
-    "title": "Home",
-    "description": "Description",
-    "image": "image.png"
-  },
-  "body": {
-    "hero": {
-      "image": "images/jumbotron.png",
-      "overlay": false,
-      "title": "Au delà des ombres",
-      "subtitle": "Découvrez l'univers d'Ava et partez à la recherche des couleurs",
-      "cta": "Voir la bande d'annonce",
-      "cta_icon": "images/icons/Play.svg",
-      "cta_url": "/teaser"
+    "meta": {
+      "title": "Home",
+      "description": "Description",
+      "background": "image.png"
     },
-    "paragraph": {
-      "overline": "Synopsis",
-      "title_upper": "Une histoire",
-      "title_downer": "haute en couleur",
-      "paragraph": "Ava, une enfant introvertie, est souvent la tête dans les nuages.  Pleine de tristesse, elle ne perçoit plus les couleurs. Poussée par Pipo, son compagnon imaginaire, elle est prête à tout pour réapprendre à colorer sa vision du monde. Sa quête du bonheur est parsemée d'embûches, le Dévoreur, une force gigantesque noire et difforme qui n’est rien d’autre que l'incarnation de son mal-être, ne cesse de la ronger de jour en jour.",
-      "image": {
-        "url": "images/rain_man.png",
-        "alt": "Un homme sous la pluie"
-      }
-    },
-    "characters": {
-      "overline": "Héros",
-      "title_upper": "Ava",
-      "title_downer": "et son entourage",
-      "list": [
-        {
-          "name": "Ava",
-          "title": "Héros",
-          "description": "Ava est une enfant très créative qui adore peindre. Pleine de tristesse car moquée par ses camarades, elle ne voit plus les couleurs.",
-          "image": {
-            "url": "afaffa",
-            "alt": "fez,fz"
+    "body": {
+      "hero": {
+        "background": "images/home/background.png",
+        "linksMedia": [
+          {
+            "icon": "images/icons/social-media/Instagram.svg",
+            "href": "",
+            "alt": "Lien instagram"
           },
-          "link": {
-            "url": "/",
-            "text": "DÉbloquer son filtre insta"
+          {
+            "icon": "images/icons/social-media/Tiktok.svg",
+            "href": "",
+            "alt": "Lien Tiktok"
+          },
+          {
+            "icon": "images/icons/social-media/Twitter.svg",
+            "href": "",
+            "alt": "Lien twitter"
+          },
+          {
+            "icon": "images/icons/social-media/Snapchat.svg",
+            "href": "",
+            "alt": "Lien snapchat"
+          },
+          {
+            "icon": "images/icons/social-media/Facebook.svg",
+            "href": "",
+            "alt": "Lien facebook"
           }
-        }
-      ]
-    },
-    "slider": {
-      "overline": "Galerie d'images",
-      "title_upper": "Un univers où",
-      "title_downer": "la couleur est précieuse",
-      "images": [
-        {
-          "url": "images/slider/image_slider_1.png",
-          "alt": "Un homme sous la pluie"
-        },
-        {
-          "url": "images/slider/image_slider_2.png",
-          "alt": "Un homme sous la pluie"
-        },
-        {
-          "url": "images/slider/image_slider_3.png",
-          "alt": "Un homme sous la pluie"
-        },
-        {
-          "url": "images/slider/image_slider_4.png",
-          "alt": "Un homme sous la pluie"
-        },
-        {
-          "url": "images/slider/image_slider_5.png",
-          "alt": "Un homme sous la pluie"
-        }
-      ]
+        ]
+      }
     }
-  }
 }

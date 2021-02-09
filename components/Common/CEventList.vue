@@ -22,6 +22,7 @@ export default {
 <style lang="scss">
 .CEventList {
   margin-top: 144px;
+  margin-bottom: 144px;
 
   &__heading {
     margin-bottom: 104px;

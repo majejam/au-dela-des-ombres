@@ -14,6 +14,11 @@
         "target": "inner"
       },
       {
+        "href": "/jeu",
+        "text": "Le jeu",
+        "target": "inner"
+      },
+      {
         "href": "/evenements",
         "text": "évenements",
         "target": "inner"
@@ -36,6 +41,97 @@
     ]
   },
   "footer": {
-    "text": "Footer"
+    "text": "Footer",
+    "links": [
+      {
+        "href": "/",
+        "text": "Accueil",
+        "target": "inner"
+      },
+      {
+        "href": "/film",
+        "text": "Le film",
+        "target": "inner"
+      },
+      {
+        "href": "/jeu",
+        "text": "Le jeu",
+        "target": "inner"
+      },
+      {
+        "href": "/evenements",
+        "text": "évenements",
+        "target": "inner"
+      },
+      {
+        "href": "/education",
+        "text": "éducation",
+        "target": "inner"
+      },
+      {
+        "href": "/boutique",
+        "text": "boutique",
+        "target": "inner"
+      },
+      {
+        "href": "/presse",
+        "text": "presse",
+        "target": "inner"
+      },
+      {
+        "href": "/contact",
+        "text": "contact",
+        "target": "inner"
+      },
+      {
+        "href": "/teaser",
+        "text": "Voir le film sur Disney +",
+        "target": "inner"
+      }
+    ],
+    "linksMl": [
+      {
+        "href": "/mentions-legales",
+        "text": "Mentions Légales",
+        "target": "inner"
+      },
+      {
+        "href": "/conditions-generales",
+        "text": "Conditions générales",
+        "target": "inner"
+      },
+      {
+        "href": "/confidentialité",
+        "text": "Confidentialité et cookies",
+        "target": "inner"
+      }
+    ],
+    "linksMedia": [
+      {
+        "icon": "images/icons/social-media/Instagram.svg",
+        "href": "",
+        "alt": "Lien instagram"
+      },
+      {
+        "icon": "images/icons/social-media/Tiktok.svg",
+        "href": "",
+        "alt": "Lien Tiktok"
+      },
+      {
+        "icon": "images/icons/social-media/Twitter.svg",
+        "href": "",
+        "alt": "Lien twitter"
+      },
+      {
+        "icon": "images/icons/social-media/Snapchat.svg",
+        "href": "",
+        "alt": "Lien snapchat"
+      },
+      {
+        "icon": "images/icons/social-media/Facebook.svg",
+        "href": "",
+        "alt": "Lien facebook"
+      }
+    ]
   }
 }
