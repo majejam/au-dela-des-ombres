@@ -27,7 +27,7 @@ export default {
 <style lang="scss">
 .CHeader {
   position: absolute;
-  z-index: 2;
+  z-index: 10;
   top: 24px;
   width: 100%;
   height: 48px;

@@ -1,20 +1,13 @@
 <template>
   <div class="container">
-    <unity
-      src="Game/Build/build.json"
+    <UnityPlayer
+      src="UnityExport/game/Build/WebXR_Beat_Them_All_WebGL_6.json"
       width="1000"
       height="600"
-      unityLoader="Game/Build/UnityLoader.js"
-    ></unity>
+      unityLoader="UnityExport/game/Build/UnityLoader.js"
+    />
   </div>
 </template>
-
-<script>
-import Unity from 'vue-unity-webgl'
-export default {
-  components: { Unity },
-}
-</script>
 
 <style lang="scss">
 .container {
