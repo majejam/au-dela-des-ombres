@@ -13,7 +13,8 @@
     "core-js": "^3.6.5",
     "destyle.css": "^2.0.2",
     "nuxt": "^2.14.6",
-    "swiper": "^6.4.11"
+    "swiper": "^6.4.11",
+    "vue-unity-webgl": "^1.2.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",
