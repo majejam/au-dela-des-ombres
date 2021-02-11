@@ -2,15 +2,31 @@
   <div class="webgl-content">
     <div id="unity-container" v-bind:style="{ width: width + 'px', height: height + 'px' }"></div>
     <div v-if="loaded == false">
-      <div class="unity-loader">
-        <div class="bar">
-          <div class="fill" v-bind:style="{ width: progress * 100 + '%' }"></div>
-        </div>
-      </div>
+      <div
+        class="unity-loader"
+        :style="`transform: translate(-50%, -50%) scaleX(${progress})`"
+      ></div>
     </div>
     <div class="footer" v-if="hideFooter !== true">
-      <a class="fullscreen" @click.prevent="fullscreen">Fullscreen</a>
-      <a class="fullscreen" @click.prevent="VRToggle">VR</a>
+      <div class="fullscreen" @click.prevent="fullscreen">
+        <svg
+          class="svg"
+          width="19"
+          height="20"
+          viewBox="0 0 19 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M3 8V4M3 4H7M3 4L7 8M15 8V4M15 4H11M15 4L11 8M3 12V16M3 16H7M3 16L7 12M15 16L11 12M15 16V12M15 16H11"
+            stroke="#000000"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+      <div class="vr_button" @click.prevent="VRToggle">VR</div>
     </div>
   </div>
 </template>
@@ -125,3 +141,60 @@ export default {
   },
 }
 </script>
+<style lang="scss" scoped>
+.webgl-content {
+  position: relative;
+  background: var(--purple-default);
+
+  width: 1000px;
+  height: 600px;
+}
+
+.fullscreen {
+  color: black;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 20;
+
+  .svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+#unity-container {
+  position: absolute;
+  z-index: 10;
+}
+
+.vr_button {
+  position: absolute;
+  bottom: 24px;
+  right: 50px;
+  cursor: pointer;
+  z-index: 20;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  border: 1px black solid;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+.unity-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  transform-origin: left;
+  transition: 0.3s linear transform;
+  width: 25%;
+  height: 2px;
+  background: white;
+}
+</style>
