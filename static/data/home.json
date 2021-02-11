@@ -1,39 +1,39 @@
 {
-    "meta": {
-      "title": "Home",
-      "description": "Description",
-      "background": "image.png"
-    },
-    "body": {
-      "hero": {
-        "background": "images/home/background.png",
-        "linksMedia": [
-          {
-            "icon": "images/icons/social-media/Instagram.svg",
-            "href": "https://www.instagram.com/audeladesombres/",
-            "alt": "Lien instagram"
-          },
-          {
-            "icon": "images/icons/social-media/Tiktok.svg",
-            "href": "",
-            "alt": "Lien Tiktok"
-          },
-          {
-            "icon": "images/icons/social-media/Twitter.svg",
-            "href": "",
-            "alt": "Lien twitter"
-          },
-          {
-            "icon": "images/icons/social-media/Snapchat.svg",
-            "href": "",
-            "alt": "Lien snapchat"
-          },
-          {
-            "icon": "images/icons/social-media/Facebook.svg",
-            "href": "",
-            "alt": "Lien facebook"
-          }
-        ]
-      }
+  "meta": {
+    "title": "Home",
+    "description": "Description",
+    "background": "image.png"
+  },
+  "body": {
+    "hero": {
+      "background": "images/home/background.jpg",
+      "linksMedia": [
+        {
+          "icon": "images/icons/social-media/Instagram.svg",
+          "href": "https://www.instagram.com/audeladesombres/",
+          "alt": "Lien instagram"
+        },
+        {
+          "icon": "images/icons/social-media/Tiktok.svg",
+          "href": "",
+          "alt": "Lien Tiktok"
+        },
+        {
+          "icon": "images/icons/social-media/Twitter.svg",
+          "href": "",
+          "alt": "Lien twitter"
+        },
+        {
+          "icon": "images/icons/social-media/Snapchat.svg",
+          "href": "",
+          "alt": "Lien snapchat"
+        },
+        {
+          "icon": "images/icons/social-media/Facebook.svg",
+          "href": "",
+          "alt": "Lien facebook"
+        }
+      ]
     }
+  }
 }
