@@ -43,4 +43,19 @@ export default {
     }
   }
 }
+
+@media (max-width: 1138px) {
+  .CHeader {
+    height: 96px;
+
+    &__links {
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+
+    &__link {
+      margin-bottom: 8px;
+    }
+  }
+}
 </style>

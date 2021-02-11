@@ -86,6 +86,8 @@ export default {
   &__content {
     text-align: center;
     padding: 74px 34px;
+    max-width: 365px;
+    margin: 0 auto;
 
     &__title {
       margin-bottom: 8px;
@@ -100,6 +102,67 @@ export default {
     &__paragraph {
       margin-bottom: 18px;
       display: block;
+    }
+  }
+}
+
+@media (max-width: 1430px) {
+  .CCharactersCard {
+    width: 50%;
+    &:nth-of-type(2) {
+      margin-right: 0;
+    }
+
+    &:nth-of-type(6) {
+      margin-left: 0;
+      margin-bottom: 110px;
+    }
+
+    &:nth-of-type(7) {
+      margin-left: 25%;
+    }
+  }
+}
+
+@media (max-width: 920px) {
+  .CCharactersCard {
+    width: 100%;
+    margin-bottom: 80px;
+
+    &:nth-of-type(7) {
+      margin-left: 0;
+    }
+
+    &__content {
+      max-width: 300px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .CCharactersCard {
+    margin-bottom: 24px;
+
+  &:nth-of-type(2) {
+    margin-bottom: 0px;
+  }
+
+  &:nth-of-type(3) {
+    margin-bottom: 0px;
+  }
+
+    &:nth-of-type(6) {
+      margin-bottom: 0px;
+    }
+
+    &__container {
+      padding-top: 40px;
+    }
+
+    &__background {
+      height: 320px;
+      transform: scaleY(1.1);
+      top: 24px;
     }
   }
 }

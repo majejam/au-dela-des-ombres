@@ -132,4 +132,8 @@ export default {
       inset 0px 6px 8px rgba(255, 255, 255, 0.3);
   }
 }
+
+@media (max-width: 1150px) {
+  
+}
 </style>

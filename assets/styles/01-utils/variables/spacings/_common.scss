@@ -9,3 +9,17 @@
   --pad-main: 0 8px;
   --pad-header: 0 20px;
 }
+
+@media (max-width: 767px) {
+  :root {
+    // Columns
+    --col-main: 0 5%;
+    --col-header: 0 20px;
+    // Columns
+    --col-main-side: 5%;
+  
+    // Paddings
+    --pad-main: 0 8px;
+    --pad-header: 0 20px;
+  }
+}

@@ -31,9 +31,11 @@ export default {
   margin-bottom: 110px;
   padding: var(--col-main);
   display: flex;
+  align-items: center;
 
   &__left {
     padding-top: 80px;
+    margin-right: 24px;
 
     &__heading {
       color: var(--purple-dark);
@@ -51,4 +53,31 @@ export default {
     }
   }
 }
+
+@media (max-width: 1150px) {
+  .CParagraphImage {
+    &__left {
+      padding-top: 0px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .CParagraphImage {
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 60px;
+
+    &__left {
+      width: 100%;
+      margin-right: 0;
+      margin: 24px;
+    }
+
+    &__right {
+      width: 100%;
+    }
+  }
+}
+
 </style>

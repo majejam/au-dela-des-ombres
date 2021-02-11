@@ -29,18 +29,33 @@ export default {
     }
   },
   mounted() {
-    this.swiper = new Swiper(this.$refs.Swiper, {
-      speed: 400,
-      slidesPerView: 3,
-      spaceBetween: 20,
-      initialSlide: 1,
-    })
-    Bus.$on('Prev', () => {
-      this.swiper.slidePrev(500)
-    })
-    Bus.$on('Next', () => {
-      this.swiper.slideNext(500)
-    })
+    if (window.matchMedia("(max-width: 767px)").matches) {
+      this.swiper = new Swiper(this.$refs.Swiper, {
+        speed: 400,
+        slidesPerView: 2,
+        spaceBetween: 20,
+        initialSlide: 1,
+      })
+      Bus.$on('Prev', () => {
+        this.swiper.slidePrev(500)
+      })
+      Bus.$on('Next', () => {
+        this.swiper.slideNext(500)
+      })
+    } else {
+      this.swiper = new Swiper(this.$refs.Swiper, {
+        speed: 400,
+        slidesPerView: 3,
+        spaceBetween: 20,
+        initialSlide: 1,
+      })
+      Bus.$on('Prev', () => {
+        this.swiper.slidePrev(500)
+      })
+      Bus.$on('Next', () => {
+        this.swiper.slideNext(500)
+      })
+    }
   },
 }
 </script>
@@ -70,6 +85,12 @@ export default {
     width: 40px;
     background: blue;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 767px) {
+  .CSwiper {
+    margin: 40px 0px;
   }
 }
 </style>

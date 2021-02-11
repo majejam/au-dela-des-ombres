@@ -68,4 +68,23 @@ export default {
     }
   }
 }
+@media (max-width: 767px) {
+  .CCharacters {
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 99%);
+
+    &__container {
+      padding-bottom: 120px;
+    }
+
+    &__sketch-image {
+      &:nth-of-type(2) {
+        top: 500px;
+      }
+
+      &:nth-of-type(3) {
+        bottom: -30px;
+      }
+    }
+  }
+}
 </style>

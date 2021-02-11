@@ -32,4 +32,10 @@ export default {
     color: var(--purple-dark);
   }
 }
+
+@media (max-width: 767px) {
+  .CSlider {
+    margin-top: 40px;
+  }
+}
 </style>

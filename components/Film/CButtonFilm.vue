@@ -32,4 +32,17 @@ export default {
     margin-right: 24px;
   }
 }
+
+@media (max-width: 420px) {
+  .CButtonFilm {
+    width: calc(100% - 2*var(--col-main-side));
+    height: 64px;
+    bottom: -32px;
+
+    &__image {
+      width: 30px;
+      margin-right: 8px;
+    }
+  }
+}
 </style>

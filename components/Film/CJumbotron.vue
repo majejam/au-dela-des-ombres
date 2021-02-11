@@ -48,6 +48,7 @@ export default {
 
   &__text {
     margin-left: var(--col-main-side);
+    margin-right: var(--col-main-side);
     color: var(--grey-50);
 
     &--caption {

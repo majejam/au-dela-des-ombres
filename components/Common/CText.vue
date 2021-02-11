@@ -119,4 +119,41 @@ p {
 span {
   font-family: var(--font-text);
 }
+
+@media (max-width: 920px) {
+  h1 {
+    font-size: 63px;
+    line-height: 80px;
+  }
+
+  h2 {
+    font-size: 50px;
+    line-height: 56px;
+  }
+
+  h3 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  h4 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  h5 {
+    font-size: 21px;
+    line-height: 24px;
+  }
+
+  h6 {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
 </style>

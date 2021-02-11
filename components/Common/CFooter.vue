@@ -88,6 +88,10 @@
       margin-bottom: 24px;
     }
 
+    &:nth-of-type(5) {
+      margin-bottom: 24px;
+    }
+
     &:last-of-type {
       margin-right: 0;
     }
@@ -190,6 +194,120 @@
     width: 70%;
     padding-left: 16px;
     padding-right: 16px;
+  }
+}
+
+@media (max-width: 1420px) {
+  .CFooter {
+    height: 374px;
+
+    .row {
+      width: 50%;
+    }
+
+    &__linksMl {
+      flex-flow: wrap;
+
+      li:first-of-type {
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1110px) {
+  .CFooter {
+    &__links {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .CFooter {
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+
+    &__links {
+      width: 100%
+    }
+
+    .row {
+      width: 100%;
+    }
+
+    &__red {
+      position: relative;
+      width: 70%;
+      height: auto;
+      margin-bottom: -30px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .CFooter {
+    &__red {
+      width: 100%;
+      padding: 48px 16px;
+    }
+
+    &__purple {
+      padding: 64px 16px;
+    }
+
+    &__linkMedia {
+      margin-right: 24px;
+    }
+
+    &__newsletter-input {
+      font-size: 12px;
+    }
+
+    &__newsletter-btn {
+      .Text--custom {
+        font-size: 11px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 491px) {
+  .CFooter {
+    &__purple {
+      height: auto;
+    }
+
+    &__link {
+      margin-right: 24px;
+
+      &:first-of-type {
+        margin-bottom: 16px;
+      }
+
+      &:nth-of-type(5) {
+        margin-bottom: 16px;
+      }
+
+      &:nth-of-type(7) {
+        margin-bottom: 16px;
+      }
+
+      &:nth-of-type(8) {
+        margin-bottom: 16px;
+      }
+    }
+
+    .row {
+      flex-direction: column;
+    }
+
+    &__logo-disney {
+      width: 100px;
+      margin-bottom: 16px;
+    }
   }
 }
 </style>
