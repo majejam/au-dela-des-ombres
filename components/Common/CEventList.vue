@@ -26,6 +26,7 @@ export default {
 
   &__heading {
     margin-bottom: 104px;
+    color: var(--purple-dark);
   }
 
   &__divider {

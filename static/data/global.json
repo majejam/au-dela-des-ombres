@@ -24,12 +24,12 @@
         "target": "inner"
       },
       {
-        "href": "/education",
+        "href": "",
         "text": "éducation",
         "target": "inner"
       },
       {
-        "href": "/boutique",
+        "href": "",
         "text": "boutique",
         "target": "inner"
       },
@@ -64,12 +64,12 @@
         "target": "inner"
       },
       {
-        "href": "/education",
+        "href": "",
         "text": "éducation",
         "target": "inner"
       },
       {
-        "href": "/boutique",
+        "href": "",
         "text": "boutique",
         "target": "inner"
       },
@@ -79,7 +79,7 @@
         "target": "inner"
       },
       {
-        "href": "/contact",
+        "href": "",
         "text": "contact",
         "target": "inner"
       },
@@ -91,17 +91,17 @@
     ],
     "linksMl": [
       {
-        "href": "/mentions-legales",
+        "href": "",
         "text": "Mentions Légales",
         "target": "inner"
       },
       {
-        "href": "/conditions-generales",
+        "href": "",
         "text": "Conditions générales",
         "target": "inner"
       },
       {
-        "href": "/confidentialité",
+        "href": "",
         "text": "Confidentialité et cookies",
         "target": "inner"
       }
@@ -109,7 +109,7 @@
     "linksMedia": [
       {
         "icon": "images/icons/social-media/Instagram.svg",
-        "href": "",
+        "href": "https://www.instagram.com/audeladesombres/",
         "alt": "Lien instagram"
       },
       {

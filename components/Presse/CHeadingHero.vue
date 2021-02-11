@@ -4,10 +4,10 @@
     <div class="CHeadingHero__content">
       <c-text class="CHeadingHero__title" tag="h2" type="solid" :text="hero.title" />
       <div class="row">
-        <NuxtLink class="CHeadingHero__button u-flex-center" to="#">
+        <NuxtLink class="CHeadingHero__button u-flex-center" to="">
           <c-text tag="span" type="custom" text="Télécharger le dossier de presse" />
         </NuxtLink>
-        <NuxtLink class="CHeadingHero__button u-flex-center" to="contact">
+        <NuxtLink class="CHeadingHero__button u-flex-center" to="">
           <c-text tag="span" type="custom" text="Contacter le service presse" />
         </NuxtLink>
       </div>

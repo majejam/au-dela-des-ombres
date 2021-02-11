@@ -15,7 +15,7 @@
           <c-text tag="span" type="thin" :text="content.format" />
         </div>
         <div class="bottom">
-          <NuxtLink class="CDownloadBox__download-btn u-flex-center" to="/download">
+          <NuxtLink class="CDownloadBox__download-btn u-flex-center" to="">
             <c-text tag="span" type="custom" text="Télécharger" />
           </NuxtLink>
         </div>

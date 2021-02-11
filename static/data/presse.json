@@ -15,7 +15,7 @@
           "dimension": "32 x 43px",
           "format": ".png .jpg",
           "images": [
-            "images/event/event1.png"
+            "images/presse/download1.png"
           ]
         },
         {
@@ -23,8 +23,8 @@
           "dimension": "32 x 43px",
           "format": ".png .jpg .svg",
           "images": [
-            "images/event/event2.png",
-            "images/event/event3.png"
+            "images/presse/download2.png",
+            "images/presse/download3.png"
           ]
         }
       ]

@@ -18,7 +18,7 @@
     <div class="CPresseLeft__divider"></div>
     <c-text class="CPresseLeft__info-contact" tag="p" text="Pour toutes demandes, n’hésitez pas à contacter notre service presse qui vous répondra dans les plus brefs délais" />
     <div class="u-flex-center">
-      <NuxtLink class="CPresseLeft__contact-btn u-flex-center" to="/contact">
+      <NuxtLink class="CPresseLeft__contact-btn u-flex-center" to="">
         <c-text tag="span" type="custom" text="Contacter le service presse" />
       </NuxtLink>
     </div>
