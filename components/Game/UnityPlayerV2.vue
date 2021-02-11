@@ -14,8 +14,7 @@
       </div>
     </div>
     <div class="footer" v-if="hideFooter !== true">
-      <a class="fullscreen" @click.prevent="fullscreen">Fullscreen</a>
-      <a class="fullscreen" @click.prevent="VRToggle">VR</a>
+      <a class="fullscreen" ref="fullscreen">Fullscreen</a>
     </div>
   </div>
 </template>
@@ -66,11 +65,9 @@ export default {
 
     if (typeof UnityLoader === 'undefined' && this.unityLoader && !this.eventBus.load) {
       const script = document.createElement('SCRIPT')
-      console.log(this.unityLoader)
       script.setAttribute('src', this.unityLoader)
       script.setAttribute('async', '')
       script.setAttribute('defer', '')
-      console.log(script)
       this.eventBus.load = true
 
       var config = {
@@ -88,11 +85,17 @@ export default {
           //progressBarFull.style.width = 100 * progress + '%'
         })
           .then(unityInstance => {
+            this.gameInstance = unityInstance
             //loadingBar.style.display = 'none'
+            this.$refs.fullscreen.onclick = () => {
+              unityInstance.SetFullscreen(1)
+            }
           })
           .catch(message => {
             alert(message)
           })
+
+        console.log(this.gameInstance)
       }
       document.body.appendChild(script)
     } else {
@@ -108,55 +111,9 @@ export default {
       },
       false
     )
-    const instantiate = () => {
-      if (typeof UnityLoader === 'undefined') {
-        let error =
-          'The UnityLoader was not defined, please add the script tag ' +
-          'to the base html and embed the UnityLoader.js file Unity exported or use "unityLoader" attribute for path to UnityLoader.js.'
-        console.error(error)
-        this.error = error
-        return
-      }
-      if (this.src === null) {
-        let error = 'Please provice a path to a valid JSON in the "src" attribute.'
-        console.error(error)
-        this.error = error
-        return
-      }
-      let params = {}
-      if (this.externalProgress) {
-        params.onProgress = UnityProgress
-      } else {
-        params.onProgress = (gameInstance, progress) => {
-          this.loaded = progress === 1
-          this.progress = progress
-        }
-      }
-      if (this.module) {
-        params.Module = this.module
-      }
-      var config = {
-        dataUrl: this.src + '/buildTestH4.data',
-        frameworkUrl: this.src + '/buildTestH4.framework.js',
-        codeUrl: this.src + '/buildTestH4.wasm',
-        streamingAssetsUrl: 'StreamingAssets',
-        companyName: 'DefaultCompany',
-        productName: 'Ava_Transmedia',
-        productVersion: '0.1',
-      }
-
-      this.gameInstance = UnityLoader.createUnityInstance(this.$refs.canvas, config, params)
-
+    this.eventBus.$on('onload', () => {
       console.log(this.gameInstance)
-    }
-
-    if (this.eventBus.ready) {
-      instantiate()
-    } else {
-      this.eventBus.$on('onload', () => {
-        instantiate()
-      })
-    }
+    })
   },
 }
 </script>
