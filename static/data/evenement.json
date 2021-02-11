@@ -6,7 +6,7 @@
   },
   "body": {
     "hero": {
-      "image": "images/carousel.png",
+      "image": "images/carousel.jpg",
       "overlay": true,
       "caption": "Évènement inédit · Paris, mardi 23 février 2021",
       "title": "La fête des couleurs",
