@@ -1,13 +1,13 @@
 <template>
   <div class="container Unity">
     <c-header :content="global.header" />
-    <unity
+    <UnityPlayerV2
       class="Unity__canvas"
-      src="UnityExport/teaser/Build/build.json"
+      src="UnityExport/teaser/Build"
       width="1000"
       height="600"
-      unityLoader="UnityExport/teaser/Build/UnityLoader.js"
-    ></unity>
+      unityLoader="UnityExport/teaser/Build/buildTestH4.loader.js"
+    ></UnityPlayerV2>
   </div>
 </template>
 
