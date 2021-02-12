@@ -54,6 +54,14 @@ export default {
       }
       navClose = !navClose
     })
+
+    this.$links = this.$el.querySelectorAll('.CHeader__linkMobile--aMobile')
+    this.$links.forEach(link => {
+      link.addEventListener('click', () => {
+        this.$headerMobile.classList.remove('open')
+        document.body.classList.remove('stop-scroll')
+      })
+    });
   }
 }
 </script>
