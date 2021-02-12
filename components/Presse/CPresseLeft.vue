@@ -89,6 +89,7 @@ export default {
   }
 
   &__contact-btn {
+    min-width: 300px;
     display: flex;
     background: var(--main-red);
     color: var(--main-white);
@@ -103,6 +104,28 @@ export default {
 
     box-shadow: 0px 0px 24px rgba(255, 181, 20, 0.4), inset 0px -8px 8px rgba(0, 0, 0, 0.05),
       inset 0px 6px 8px rgba(255, 255, 255, 0.3);
+  }
+}
+
+@media (max-width: 900px) {
+  .CPresseLeft {
+    width: 100%;
+    max-width: 450px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-right: 0;
+
+    &__text {
+      margin-bottom: 48px;
+    }
+
+    &__casting {
+      margin-bottom: 48px;
+    }
+
+    &__divider {
+      margin-bottom: 48px;
+    }
   }
 }
 </style>

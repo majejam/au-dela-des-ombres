@@ -2,9 +2,11 @@
   <div class="container">
     <c-header :content="global.header" />
     <c-heading-hero :hero="content.body.hero" />
-    <c-presse-right :downloads="content.body.downloads" />
-    <div class="content">
-      <c-presse-left />
+    <div class="row-content">
+      <c-presse-right :downloads="content.body.downloads" />
+      <div class="content">
+        <c-presse-left />
+      </div>
     </div>
     <c-footer :content="global.footer" />
   </div>
@@ -40,5 +42,12 @@ export default {
 .content {
   padding: var(--col-main);
   overflow-x: hidden;
+}
+
+@media (max-width: 900px) {
+  .row-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 </style>

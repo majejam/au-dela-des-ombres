@@ -107,4 +107,28 @@ export default {
     }
   }
 }
+
+@media (max-width: 500px) {
+  .CDownloadBox {
+    margin-bottom: 48px;
+    .row {
+      flex-direction: column;
+      .column {
+        margin-bottom: 16px;
+
+        .top {
+          margin-bottom: 32px;
+        }
+
+        .bottom {
+          width: 200px;
+        }
+      }
+
+      .column span:nth-of-type(2) {
+          margin-bottom: 8px;
+      }
+    }
+  }
+}
 </style>

@@ -37,4 +37,21 @@ export default {
     margin-top: 55px;
   }
 }
+
+@media (max-width: 1050px) {
+  .CEventList {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    &__heading {
+      margin-bottom: 60px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .CEventList {
+    margin-bottom: 20px;
+  }
+}
 </style>

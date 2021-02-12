@@ -36,4 +36,25 @@ export default {
     margin-bottom: 64px;
   }
 }
+
+@media (max-width: 1080px) {
+  .CPresseRight {
+    padding-left: 48px;
+  }
+}
+
+@media (max-width: 900px) {
+  .CPresseRight {
+    padding-left: var(--col-main-side);
+    padding-right: var(--col-main-side);
+    width: 100%;
+    position: relative;
+    top: 0;
+
+    &__title {
+      margin-top: 48px;
+      margin-bottom: 32px;
+    }
+  }
+}
 </style>

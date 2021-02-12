@@ -40,11 +40,14 @@ export default {
     width: 100%;
     height: 100%;
     z-index: -1;
+    top: 0;
+    left: 0;
     background: linear-gradient(180deg, #2E0E59 0%, #4E4BA6 100%);
   }
 
   &__content {
     margin-left: var(--col-main-side);
+    margin-right: var(--col-main-side);
     color: var(--grey-50);
 
     .row {
@@ -73,6 +76,24 @@ export default {
 
     &:first-of-type {
       margin-right: 13px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .CHeadingHero {
+    padding-top: 40px;
+
+    .row {
+      flex-direction: column;
+
+      a {
+        margin-right: 0;
+
+        &:first-of-type {
+          margin-bottom: 8px;
+        }
+      }
     }
   }
 }

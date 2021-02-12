@@ -133,7 +133,29 @@ export default {
   }
 }
 
-@media (max-width: 1150px) {
-  
+@media (max-width: 767px) {
+  .CHomeHero {
+    &__title {
+      width: 100%;
+      max-width: 400px;
+      padding-left: var(--col-main-side);
+      padding-right: var(--col-main-side);
+      margin-bottom: 48px !important;
+    }
+
+    &__button {
+      width: 260px;
+      height: 48px;
+    }
+
+    &__perso {
+      width: 100%;
+      z-index: 0;
+    }
+
+    &__linksMedia {
+      right: calc((100% - 280px)/2);
+    }
+  }
 }
 </style>

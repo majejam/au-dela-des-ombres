@@ -83,4 +83,58 @@ export default {
     margin: 0;
   }
 }
+
+@media (max-width: 1050px) {
+  .CEventBox {
+    flex-direction: column;
+    align-items: center;
+
+    &__content {
+      width: 100%;
+      margin-bottom: 24px;
+    }
+
+    &__img {
+      min-width: 150px;
+    }
+
+    &__button {
+      max-width: 112px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .CEventBox {
+    align-items: flex-start;
+    
+    &__content {
+      flex-direction: column;
+    }
+
+    &__img {
+      margin-right: 0;
+      margin-bottom: 24px;
+      height: 200px;
+    }
+
+    &__title-date-place {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 24px;
+    }
+
+    &__title {
+      margin-bottom: 16px;
+    }
+
+    &__text {
+      width: 100%;
+    }
+
+    .row {
+      padding: 4px 0px;
+    }
+  }
+}
 </style>

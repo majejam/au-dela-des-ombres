@@ -278,3 +278,9 @@ template {
 [hidden] {
   display: none;
 }
+
+body.stop-scroll {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}

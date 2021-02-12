@@ -121,6 +121,17 @@ span {
 }
 
 @media (max-width: 920px) {
+
+  .Text {
+    &--custom {
+      font-size: 12px;
+    }
+
+    &--thin {
+      font-size: 14px;
+    }
+  }
+
   h1 {
     font-size: 63px;
     line-height: 80px;
