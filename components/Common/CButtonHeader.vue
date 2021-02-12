@@ -31,5 +31,9 @@ export default {
 
   box-shadow: 0px 0px 24px rgba(255, 181, 20, 0.4), inset 0px -8px 8px rgba(0, 0, 0, 0.05),
     inset 0px 6px 8px rgba(255, 255, 255, 0.3);
+
+  &:hover {
+    background: white;
+  }
 }
 </style>

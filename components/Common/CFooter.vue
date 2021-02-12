@@ -26,9 +26,9 @@
       <c-text class="CFooter__red--title" tag="h6" type="solid" text="Retrouvez les aventures d'Ava sur" />
       <ul class="CFooter__linksMedia">
         <li v-for="(linkMedia, index) in content.linksMedia" :key="index" class="CFooter__linkMedia">
-          <NuxtLink class="CFooter__linkMedia--a u-flex-center" :to="linkMedia.href" target="_blank">
+          <a class="CFooter__linkMedia--a u-flex-center" :href="linkMedia.href" target="_blank">
             <img :src="linkMedia.icon" :alt="linkMedia.alt">
-          </NuxtLink>
+          </a>
         </li>
       </ul>
       <c-text class="CFooter__red--info" tag="span" type="caption" text="Et abonnez-vous à notre newsletter pour ne rien rater" />
@@ -188,6 +188,10 @@
 
     box-shadow: 0px 0px 24px rgba(255, 181, 20, 0.4), inset 0px -8px 8px rgba(0, 0, 0, 0.05),
       inset 0px 6px 8px rgba(255, 255, 255, 0.3);
+
+      &:hover {
+        background: white;
+      }
   }
 
   &__newsletter-input {

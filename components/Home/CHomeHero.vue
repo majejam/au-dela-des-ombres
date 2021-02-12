@@ -8,13 +8,13 @@
     <img class="CHomeHero__perso" src="images/home/ava-et-pipo.png" alt="Ava et pipo" />
     <ul class="CHomeHero__linksMedia">
       <li v-for="(linkMedia, index) in hero.linksMedia" :key="index" class="CHomeHero__linkMedia">
-        <NuxtLink
+        <a
           class="CHomeHero__linkMedia--a u-flex-center"
-          :to="linkMedia.href"
+          :href="linkMedia.href"
           target="_blank"
         >
           <img :src="linkMedia.icon" :alt="linkMedia.alt" />
-        </NuxtLink>
+        </a>
       </li>
     </ul>
     <div class="CHomeHero__text">
@@ -87,9 +87,11 @@ export default {
     right: 40px;
     bottom: 40px;
     display: flex;
+    z-index: 30;
   }
 
   &__linkMedia {
+    cursor: pointer;
     margin-right: 40px;
 
     &:last-of-type {
@@ -124,12 +126,17 @@ export default {
     border-radius: 100px;
     background: #ffb514;
     z-index: 15;
+    transition: all 0.3s ease;
 
     margin: var(--pad-header);
     color: var(--purple-dark);
 
     box-shadow: 0px 0px 24px rgba(255, 181, 20, 0.4), inset 0px -8px 8px rgba(0, 0, 0, 0.05),
       inset 0px 6px 8px rgba(255, 255, 255, 0.3);
+
+    &:hover {
+      background: white;
+    }
   }
 }
 
