@@ -82,9 +82,9 @@ export default {
       this.eventBus.load = true
 
       var config = {
-        dataUrl: this.src + '/buildTestH4.data',
-        frameworkUrl: this.src + '/buildTestH4.framework.js',
-        codeUrl: this.src + '/buildTestH4.wasm',
+        dataUrl: this.src + '/build.data',
+        frameworkUrl: this.src + '/build.framework.js',
+        codeUrl: this.src + '/build.wasm',
         streamingAssetsUrl: 'StreamingAssets',
         companyName: 'DefaultCompany',
         productName: 'Ava_Transmedia',
