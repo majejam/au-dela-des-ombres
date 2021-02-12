@@ -3,7 +3,7 @@
     <c-header :content="global.header" />
     <UnityPlayer
       class="Unity__canvas"
-      src="UnityExport/game/Build/WebXR_Beat_Them_All_WebGL_6.json"
+      src="UnityExport/game/Build/WebXR_Beat_Them_All_WebGL_V1.json"
       width="1000"
       height="600"
       unityLoader="UnityExport/game/Build/UnityLoader.js"

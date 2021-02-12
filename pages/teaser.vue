@@ -6,7 +6,7 @@
       src="UnityExport/teaser/Build"
       width="1000"
       height="600"
-      unityLoader="UnityExport/teaser/Build/buildTestH4.loader.js"
+      unityLoader="UnityExport/teaser/Build/buildv2.loader.js"
     ></UnityPlayerV2>
   </div>
 </template>
